@@ -1,0 +1,17 @@
+[project]
+name = "slchack"
+version = "0.1.0"
+description = "Proof of concept of a vulnerability in NTUST's Study and Discussion Room reservation system, which gets information about all booked students."
+authors = [
+    { name = "Jeff", email = "jeffpeng2012@gmail.com" }
+]
+dependencies = [
+    "requests>=2.32.3",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
